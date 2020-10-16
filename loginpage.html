@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style>
+body {
+  background-image: url('download2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+div {
+  background-color: black;
+  width: 650px;
+  border: 0px solid green;
+  padding: 100px;
+  margin: 0px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: lightgrey;
+  color: black;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: lightgrey;
+  color: black;
+}
+
+</style>
+</head>
+	<body>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<h4><a href="main.php"><label for="exampleInputEmail1"><b style="color:white;font-size:150%" class="bg-dark"><i class="fas fa-backward"></i>Back</b></label></a></h4>
+
+<center>
+<div>
+<form action="login.php" method="post"> 
+			<br><label for="exampleInputEmail1"><b style="color:white;font-size:300%">Admin Login</b></label><br>
+			<br><label for="exampleInputEmail1"><b style="color:white;font-size:150%" class="bg-dark">Username:</b></label><br>
+					<input type="text" placeholder="Enter Username" name="username" size="50" required><br><br>
+					<label for="exampleInputEmail1"><b style="color:white;font-size:150%" class="bg-dark">Organization/Building Code:</b></label><br>
+					<input type="text" placeholder="Enter Code" name="code" size="50" required><br><br>
+					<label for="exampleInputPassword1"><b style="color:white;font-size:150%" class="bg-dark">Password:</b></label><br>
+					<input type="password" placeholder="Enter Password" name="password" size="50" required><br><br>
+					<button type="submit" class="btn btn-primary"  style="height:40px; width:200px" name="submit">Submit</button>
+		
+</form>
+</div>
+</center>
+</body>
+</html>
